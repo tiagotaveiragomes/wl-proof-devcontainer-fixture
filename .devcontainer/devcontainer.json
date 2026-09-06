@@ -1,0 +1,6 @@
+{
+  "name": "wl-proof-fixture",
+  "build": { "dockerfile": "Dockerfile" },
+  "remoteUser": "vscode",
+  "postCreateCommand": "echo postCreate-ran > /tmp/wl-proof-postcreate && cat /etc/wl-proof-built"
+}
